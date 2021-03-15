@@ -4,7 +4,7 @@ function UnderHeader() {
  
     
     return (
-        <div className="animate-me" style={{display:"flex",border:"2px solid blue",justifyContent:"center",paddingTop:"7px",alignItems:"center"}}>
+        <div className="animate-me" style={{display:"flex",border:"2px solid blue",justifyContent:"center",paddingTop:"7px",alignItems:"center",flexWrap:"wrap"}}>
 
             <div style={{flex:.6,textAlign:"center"}}>
                 
