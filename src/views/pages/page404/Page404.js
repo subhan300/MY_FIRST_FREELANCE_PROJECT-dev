@@ -7,19 +7,11 @@ import Section5 from "./components/section5/section5"
 import Section6 from "./components/Section6/Section6"
 import image from '../../images/underheader.png';
 import './index.css'
+import Company from './components/Company_Section/Company'
 const HomePage = () => {
   return (
 
     <div>
-      {/* <div style={{border:"2px solid green",display:"flex",justifyContent:"center",backgroundColor:"white"}}>
-     
-     <div style={{border:"2px solid blue",flex:.8,backgroundColor:"white"}}>
-        
- 
- 
-     </div>
- 
-     </div> */}
         <header className="header-area overlay">
         <nav className="navbar navbar-expand-md navbar-dark">
           <div className="container">
@@ -57,26 +49,21 @@ const HomePage = () => {
           </div>
         </nav>
         <div className="banner">
-        <div style={{flex:.6,justifyContent:'flex-end'}}>
+        
+        <div style={{flex:.6,textAlign:"center"}}>
                 
-                <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-1-1536x894.png" class="img-fluid" alt="Responsive image" />
+                <h1 style={{fontSize:"38px"}}>STRIPE PAYMENT</h1>
+                <h3>make your software in a easy way</h3>
+                <h4>SIGN UP NOW </h4>
+        </div>
+            <div style={{flex:.6}}>
                 
-                </div>
+            <img src={image} className="banner__image" alt="Responsive image" />
+            
+            </div>
         </div>
       </header>
-      {/* <div className="container">
-            <h1>Bootstrap 4 Navbar</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie.</p>
-            <a href="#content" className="button button-primary">Learn More</a>
-      </div> */}
-
-
-
-
-
-
-
-
+    <Company/>
     <UnderHeader />
     <Section3 />
     <Section4 />

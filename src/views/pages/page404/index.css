@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-}
 h1 {
   margin-bottom: 0.5em;
   font-size: 3.6rem;
@@ -70,7 +62,6 @@ p {
 .header-area {
   position: relative;
   height: 100vh;
-  background: #5bc0de;
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repear;
@@ -81,7 +72,6 @@ p {
   align-items: center;
   position: relative;
   height: 100%;
-  color: #fff;
   text-align: center;
   z-index: 1;
 }
@@ -117,7 +107,6 @@ p {
   left: 15px;
   right: 15px;
   height: 2px;
-  background-color: #fff;
   opacity: 0;
   -webkit-transform: translateY(-1px);
   -ms-transform: translateY(-1px);
@@ -318,4 +307,7 @@ p {
     -ms-transform: scaleY(1);
     transform: scaleY(1);
   }
+}
+.banner__image{
+    width: 900px;
 }
