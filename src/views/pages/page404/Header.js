@@ -34,8 +34,8 @@ const Header = () => {
         <div style={{flex:.6,textAlign:"center"}}>
                 
                 <h1 style={{fontSize:"38px"}}>STRIPE PAYMENT</h1>
-                <h3>make your software in a easy way</h3>
-                <h4>SIGN UP NOW </h4>
+                <h2>make your software in a easy way</h2>
+                <p className="font-weight-bold mt-5">SIGN UP NOW </p>
         </div>
             <div style={{flex:.6}}>
                 
@@ -45,11 +45,9 @@ const Header = () => {
         </div>
       </header>
     <Company/>
-    <UnderHeader />
-    <Section3 />
     <Section4 />
-    <Section5 />
-    <Section6 />
+    {/* <Section5 /> */}
+    {/* <Section6 /> */}
 
 
     </div>

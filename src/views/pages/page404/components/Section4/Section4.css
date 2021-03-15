@@ -1,0 +1,27 @@
+.container__wrapper{
+    height: 500px;
+}
+.caption{
+    font-weight: 800;
+    font-size: 30px;
+    
+}
+.caption__title{
+    font-weight: 300px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+.card-title{
+    font-size: 20px !important;
+    font-weight:bold !important;
+}
+@media screen and (max-width: 800px) {
+    .container__wrapper{
+        height: 1000px;
+        margin-top: 100px;
+    }
+  }
