@@ -4,6 +4,7 @@ import UnderHeader from "./UnderHeader"
 import Section3 from "./components/section3/section3"
 import Section4 from "./components/Section4/Section4"
 import Section5 from "./components/section5/section5"
+import Section6 from "./components/Section6/Section6"
 const HomePage = () => {
   return (
 
@@ -48,7 +49,7 @@ const HomePage = () => {
     <Section3 />
     <Section4 />
     <Section5 />
-
+    <Section6 />
 
 
     </div>

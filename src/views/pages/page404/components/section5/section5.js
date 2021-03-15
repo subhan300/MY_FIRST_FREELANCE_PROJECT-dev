@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Card from "./Card_section5"
 function section5() {
     return (
-        <div>
+        <div style={{backgroundColor:"white"}}>
           <div style={{display:"flex",justifyContent:"center",paddingTop:"12px",flexDirection:"column",alignItems:"center"}}>
               <div ><h4>Basic Features</h4></div>
               <h1 style={{fontSize:"30px",fontWeight:"bold",textAlign:"center"}}>Tool for every kind of business</h1>
@@ -10,11 +10,12 @@ function section5() {
              <p style={{fontSize:"18px",lineHeight:"0px"}}>quod maxime placeat facere possimus</p>
             
           </div>
-          <div style={{display:"flex",border:"2px solid blue",paddingTop:"10px",justifyContentL:"center"}}>
-                 <div style={{flex:.4}}>box1</div>
-                 <div style={{flex:.4}}>box1</div>
-                 <div style={{flex:.4}}>box1</div>
-                 
+          <div style={{flexWrap:"wrap",display:"flex",border:"2px solid blue",paddingTop:"10px",justifyContent:"space-around",textAlign:"center"}}>
+              
+                    <div><Card Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-4.png" title="Startups" /></div>
+                    <div><Card Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-5.png" title="Entrepreneurs" /></div>
+                    <div><Card Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-6.png" title="Employees" /></div>
+                  
 
              </div>
         </div>
