@@ -5,13 +5,13 @@ function Section4() {
        <>
    <div style={{backgroundColor:"white"}}>  
        
-          <div className="container" style={{border:"2px solid blue",backgroundColor:"white"}}>
+          <div className="container" style={{backgroundColor:"white"}}>
             <h5 style={{color:"blue"}}>Why Stripe?</h5>
             <h1>A technology-first aproach to Payment<br></br> and finance</h1>
         
        </div>
          <div className="container" style={{backgroundColor:"white"}}> 
-         <div className="row" style={{backgroundColor:"white",display:"flex",border:"2px solid green",justifyContent:"center"}}>
+         <div className="row" style={{backgroundColor:"white",display:"flex",justifyContent:"center"}}>
 
 <div className="col-12 col-md-4 col-lg-3 text-center">
     <h5>icon</h5>
@@ -44,7 +44,13 @@ function Section4() {
 
 </div>
 
-        </div></div>
+        </div>
+        
+        <hr></hr>
+        <br></br><br></br>
+        
+        </div>
+
 
 
 
