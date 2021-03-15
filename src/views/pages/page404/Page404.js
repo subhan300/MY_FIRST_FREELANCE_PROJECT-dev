@@ -8,11 +8,12 @@ import Section6 from "./components/Section6/Section6"
 import image from '../../images/underheader.png';
 import './index.css'
 import Company from './components/Company_Section/Company'
+import "./UnderHeader.css"
 const HomePage = () => {
   return (
 
     <div>
-        <header className="header-area overlay">
+        <header className="header-area overlay animate-me ">
         <nav className="navbar navbar-expand-md navbar-dark">
           <div className="container">
             <a href="#" className="navbar-brand">Bootdey.com</a>
@@ -22,8 +23,8 @@ const HomePage = () => {
               <span className="menu-icon-bar" />
             </button>
             <div id="main-nav" className="collapse navbar-collapse">
-              <ul className="navbar-nav ml-auto">
-                <li><a href="#" className="nav-item nav-link active">Home</a></li>
+              <ul className="navbar-nav ml-auto" >
+                <li  ><a href="#" className="nav-item nav-link active" >Home</a></li>
                 <li><a href="#" className="nav-item nav-link">About Us</a></li>
                 <li className="dropdown">
                   <a href="#" className="nav-item nav-link" data-toggle="dropdown">Services</a>
@@ -64,7 +65,7 @@ const HomePage = () => {
         </div>
       </header>
     <Company/>
-    <UnderHeader />
+    {/* <UnderHeader /> */}
     <Section3 />
     <Section4 />
     <Section5 />
