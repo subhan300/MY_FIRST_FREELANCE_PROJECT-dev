@@ -14,7 +14,7 @@ function UnderHeader() {
             </div>
             <div style={{flex:.6,textAlign:"center"}}>
                 
-            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-1-1536x894.png" class="img-fluid" alt="Responsive image" />
+            <img src="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-1-1536x894.png" class="img-fluid" alt="Responsive images" />
             
             </div>
            
