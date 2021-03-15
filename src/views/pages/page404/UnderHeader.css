@@ -1,0 +1,29 @@
+.animate-me {
+    -webkit-animation: bgcolorchange 4s infinite; /* Chrome, Safari, Opera */ 
+    animation: 8s infinite bgcolorchange;
+  }
+  @keyframes bgcolorchange {
+    0% {
+      background-color: #BC6BCA;
+    }
+    25% {
+      background-color: #A6DCDE;
+    }
+    50% {
+      background-color:#F9A05F;
+    }
+    75% {
+      background-color: #B56FD9;
+    }
+    100% {
+      background-color:#FFCA57;
+    }
+  }
+  /* Chrome, Safari, Opera */
+   @-webkit-keyframes bgcolorchange {
+        0%   {background: orange;}
+        25%  {background: yellow;}
+        75%  {background: lightgreen;}
+        100% {background: skyblue;}
+   }
+   
