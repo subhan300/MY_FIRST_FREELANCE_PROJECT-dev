@@ -9,13 +9,14 @@ import Section5 from "./components/section5/section5"
 import Section6 from "./components/Section6/Section6"
 import image from '../../images/underheader.png';
 import './Header.css'
+import "./UnderHeader.css"
 import Company from './components/Company_Section/Company'
 const Header = () => {
   const [open,setOpen] = useState(false);
   return (
 
     <div>
-        <header className="header-area overlay">
+        <header className="header-area overlay animate-me ">
         <div className="navbar">
             <div className="logo"><span>PIXACT</span></div>
             <div className="click__menu" onClick={()=> setOpen(!open)}><MenuIcon/></div>
@@ -30,15 +31,15 @@ const Header = () => {
         </div>
         <div className="banner">
         
-        <div style={{flex:.6,textAlign:"center"}}>
+        <div style={{flex:.5,textAlign:"center"}}>
                 
                 <h1 style={{fontSize:"38px"}}>STRIPE PAYMENT</h1>
                 <h2>make your software in a easy way</h2>
                 <p className="font-weight-bold mt-5">SIGN UP NOW </p>
         </div>
-            <div style={{flex:.6}}>
+            <div style={{flex:.9}}>
                 
-            <img src={image} className="banner__image" alt="Responsive image" />
+            <img  src={image} className="banner__image" alt="Responsive image" />
             
             </div>
         </div>
