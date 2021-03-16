@@ -1,16 +1,22 @@
 .wrapper{
     background-color: #fff;
     height: 300px;
+    align-items: center;
+    display: flex;
 }
 .container__firstrow{
-    padding-top: 40px;
+    /* padding-top: 90px; */
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 @media (max-width: 800px) {
     .wrapper{
-        height: 900px;
-        padding-top: 20px;
+        height: 500px;
+        padding-top: 5px;
     }
     .container__firstrow{
-        padding-top: 10px;
+        padding-top: 5px;
     }
   }
