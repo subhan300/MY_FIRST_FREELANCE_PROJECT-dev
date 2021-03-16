@@ -12,7 +12,7 @@ function Section4() {
             <div className="container">
                 <h5 className="caption mt-5">Why Stripe?</h5>
                 <p className="caption__title">A technology-first aproach to Payment<br></br> and finance</p>
-                <div className="row">
+                <div className="row d-flex justify-content-center">
                     <div className="col-md-3 col-sm-6">
                         <Technology 
                         title="close to metal" 

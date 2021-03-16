@@ -4,7 +4,6 @@ import CloseIcon from '@material-ui/icons/Close';
 import {Link} from 'react-scroll'
 import {Navbar,Button,FormControl,Nav,Form,NavDropdown} from "react-bootstrap"
 import UnderHeader from "./UnderHeader"
-import Section3 from "./components/section3/section3"
 import Section4 from "./components/Section4/Section4"
 import Section5 from "./components/section5/section5"
 import Section6 from "./components/Section6/Section6"
@@ -46,10 +45,8 @@ const Header = () => {
       </header>
     <Company/>
     <Section4 />
-    {/* <Section5 /> */}
-    {/* <Section6 /> */}
-
-
+    <Section5 />
+    <Section6/>
     </div>
     
   )

@@ -4,7 +4,7 @@ export default function Technology({title,desc,img}) {
             <div className="row">
                     <div className="col">
                     <div className="row">
-                        <div className="col d-flex justify-content-sm-start">
+                        <div className="col">
                         <img src={img} className="img-fluid logo"></img>
                         </div>
                     </div>

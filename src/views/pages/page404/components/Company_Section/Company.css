@@ -5,9 +5,9 @@
 .container__firstrow{
     padding-top: 40px;
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     .wrapper{
-        height: 500px;
+        height: 900px;
         padding-top: 20px;
     }
     .container__firstrow{

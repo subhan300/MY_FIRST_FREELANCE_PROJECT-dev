@@ -1,17 +1,33 @@
 import React from 'react'
-
+import './Section6.css';
 function Section6() {
     return (
+        <div className="section6__wrapper">
+            <div className-="container">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-md-12 mt-5">
+                        <p className="text__heading fs-1 text-center pt-5">Get back to profitability</p>
+                        <p className="text__heading text-center fs-1">after lockdown</p>
+                    </div>
+                </div>
+                <div className="row d-flex justify-content-center">
+                    <div className="col mt-5">
+                        <p className="text-center fw-light">We’ve helped hospitality businesses around the UK</p>
+                        <p className="text-center fw-light">bounce back from lockdown. Let us help you.</p>
+                    </div>
+                </div>
+                <div className="row d-flex justify-content-center">
+                    <div className="col-md-6 col-sm-12 mt-4">
+                    <div class="btn-section">
+                    <button type="button" class="btn btn-outline-primary ">Default Outline</button>
+                    <button type="button" class="btn btn-outline-primary">Default Outline</button>
+                    </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
         
-          <div style={{display:"flex",backgroundColor:"#EBEDEF",flexDirection:"column",justifyContent:"center",alignItems:"center",paddingTop:"25px",paddingBottom:"25px",flexWrap:"wrap"}}>
-            <h1>Get Back To Profit</h1>
-            <h1>After LockDown</h1>
-            <p style={{fontSize:"15px"}}>We have helped the hospitiality business and the UK</p>
-            <p style={{fontSize:"15px",lineHeight:"0px"}}>bounce back from lockdown.Let us help you</p>
-            <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",padding:"10px"}} >
-                <button style={{outlineStyle:"none",marginLeft:"7px",marginTop:"14px",borderWidth:"thin",borderColor:"blue",height:"40px",width:"230px",borderRadius:"50px 50px 50px 50px"}}>GET STARTED</button>
-                <button style={{outlineStyle:"none",marginLeft:"7px",marginTop:"14px",borderWidth:"thin",borderColor:"blue",height:"40px",width:"230px",borderRadius:"50px 50px 50px 50px"}}>Get Profit</button></div>
-           </div>
     )
 }
 
