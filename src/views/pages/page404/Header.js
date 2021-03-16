@@ -2,8 +2,7 @@ import React,{useState} from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
 import {Link} from 'react-scroll'
-import {Navbar,Button,FormControl,Nav,Form,NavDropdown} from "react-bootstrap"
-import UnderHeader from "./UnderHeader"
+import Footer from './components/Footer/Footer'
 import Section4 from "./components/Section4/Section4"
 import Section5 from "./components/section5/section5"
 import Section6 from "./components/Section6/Section6"
@@ -47,6 +46,7 @@ const Header = () => {
     <Section4 />
     <Section5 />
     <Section6/>
+    <Footer/>
     </div>
     
   )
