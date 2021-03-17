@@ -1,8 +1,10 @@
 .wrapper{
     background-color: #fff;
-    height: 300px;
+    height: 400px;
     align-items: center;
     display: flex;
+    /* border:12px solid greenyellow; */
+    width:100%;
 }
 .container__firstrow{
     /* padding-top: 90px; */
@@ -11,12 +13,16 @@
     align-items: center;
     justify-content: center;
 }
-@media (max-width: 800px) {
-    .wrapper{
-        height: 500px;
-        padding-top: 5px;
+
+  /* @media (max-width: 440px) {
+    .space{
+        margin-top:600px;
+        border:"8px solid red"
     }
-    .container__firstrow{
-        padding-top: 5px;
-    }
+
+
+
   }
+  */
+   
+  

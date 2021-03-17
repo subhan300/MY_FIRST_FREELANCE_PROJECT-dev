@@ -22,21 +22,21 @@ function Section4() {
                     </div>
                     <div className="col-md-3 col-sm-6">
                     <Technology 
-                        title="close to metal" 
+                        title="Fastest-improving platform" 
                         desc="From direct integrations with card networks and banks to checkout flows in the browser, we operate on and optimize at every level of the financial stack."
                         img={logo2}
                         />
                     </div>
                     <div className="col-md-3 col-sm-6">
                     <Technology 
-                        title="close to metal" 
+                        title="Battle-tested reliability" 
                         desc="From direct integrations with card networks and banks to checkout flows in the browser, we operate on and optimize at every level of the financial stack."
                         img={logo3}
                         />
                     </div>
                     <div className="col-md-3 col-sm-6">
                     <Technology 
-                        title="close to metal" 
+                        title="Intelligent optimizations" 
                         desc="From direct integrations with card networks and banks to checkout flows in the browser, we operate on and optimize at every level of the financial stack."
                         img={logo4}
                         />

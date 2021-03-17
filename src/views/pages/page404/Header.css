@@ -2,20 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 .header-area {
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repear;
   background-size: cover;
+  width:100%
 }
 .banner {
   display: flex;
   align-items: center;
   position: relative;
-  height: 100%;
+  width:100%;
   text-align: center;
   z-index: 1;
   flex-wrap: wrap;
+  
+  background-color: white;
+
+
 }
 .banner h1 {
   font-weight: 800;
@@ -25,15 +30,30 @@
 }
 .banner__image{
     width:100%
+    ;background-color: white;
 }
 
-@media screen and (min-width: 480px) {
-  .banner__image{
+@media screen and (max-width: 680px) {
+  .RightSign{
+    margin-right:120px;
+    /* border:2px solid red */
   
 
     
-  }
+  };
+  
 }
+@media screen and (max-width: 680px) {
+  .RightSign{
+    margin-right:120px;
+    /* border:2px solid red */
+  
+
+    
+  };
+  
+}
+
 /* Navbar */
 .navbar {
   background-color: #fff;
@@ -41,7 +61,7 @@
   display: flex;
   justify-content: space-between;
   height: 100px;
-  padding: 17px 0;
+  /* padding: 17px 0; */
 }
 
 .main__menu {
@@ -51,7 +71,7 @@
 
 .nav__items {
   display: inline-block;
-  padding: 20px;
+  padding-left: 20px;
   text-decoration: none;
   text-transform: capitalize;
   color: #000;
@@ -76,12 +96,14 @@
 .logo {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-left: 5rem;
   font-family: sans-serif;
-  padding-top: 13px;
-  padding-bottom: 10px;
+  padding-top: 17px;
+  /* padding-bottom: 10px; */
   letter-spacing: 1px; 
+  margin-top:auto;
+ 
 }
 
 
@@ -109,10 +131,14 @@
   position: absolute;
   top: 20px;
   right: 20px;
+ 
 }
 
 .click__menu {
   display: block;
+  margin-top:8px;
+  /* height:60px; */
+ 
 }
 
 
@@ -125,6 +151,8 @@
   top: -100%;
   transition: top 2s ease;
 }
+
+
 
 
 }

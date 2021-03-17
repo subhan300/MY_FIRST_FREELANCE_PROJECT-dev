@@ -2,31 +2,19 @@ import React from 'react'
 import './Section6.css';
 function Section6() {
     return (
-        <div className="section6__wrapper">
-            <div className-="container">
-                <div className="row d-flex justify-content-center">
-                    <div className="col-md-12 mt-5">
-                        <p className="text__heading fs-1 text-center pt-5">Get back to profitability</p>
-                        <p className="text__heading text-center fs-1">after lockdown</p>
-                    </div>
-                </div>
-                <div className="row d-flex justify-content-center">
-                    <div className="col mt-5">
-                        <p className="text-center fw-light">We’ve helped hospitality businesses around the UK</p>
-                        <p className="text-center fw-light">bounce back from lockdown. Let us help you.</p>
-                    </div>
-                </div>
-                <div className="row d-flex justify-content-center">
-                    <div className="col-md-6 col-sm-12 mt-4">
-                    <div class="btn-section">
-                    <button type="button" class="btn btn-outline-primary ">Default Outline</button>
-                    <button type="button" class="btn btn-outline-primary">Default Outline</button>
-                    </div>
-                    </div>
-                    </div>
-                    
-                </div>
-            </div>
+      <div className="row text-center" style={{backgroundColor:"white"}}>
+           <div className="container">
+            <div className="wrapper d-flex" >
+            <h1 style={{fontSize:"50px",fontWeight:"bold"}}>Get Back To Profitiablity</h1>
+            <h1 style={{fontSize:"50px",fontWeight:"bold",}}>After Lockdown</h1>
+          
+            <h4 style={{fontSize:"17px",lineHeight:"-9px"}}>We have helped the business around UK,</h4>
+            <h4 style={{fontSize:"17px"}}>and work flow in other countries </h4>
+            
+          
+        </div>
+       </div>
+      </div>
         
     )
 }

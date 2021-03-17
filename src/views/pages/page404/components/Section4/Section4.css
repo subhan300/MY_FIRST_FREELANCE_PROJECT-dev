@@ -1,5 +1,7 @@
 .container__wrapper{
     height: 500px;
+    background-color: white;
+    border:2px solid  white
 }
 .caption{
     font-weight: 800;
@@ -8,15 +10,16 @@
 }
 .caption__title{
     font-weight: 300px;
-    font-size: 3.1rem;
+    font-size: 3.6rem;
     font-family: 'Roboto', sans-serif;
+    line-height: -3px;
 }
 .logo{
     width: 90px;
     height: 90px;
 }
 .card-title{
-    font-size: 20px !important;
+    font-size: 17px !important;
     font-weight:bold !important;
 }
 @media (max-width: 800px) {

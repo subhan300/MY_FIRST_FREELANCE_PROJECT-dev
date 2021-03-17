@@ -18,9 +18,9 @@ function section5() {
           </div>
           <div className="container" style={{flexWrap:"wrap",display:"flex",paddingTop:"10px",justifyContent:"space-around",textAlign:"center"}}>
               
-                    <div style={{marginTop:"4px"}}><Card  Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-4.png" title="Startups" /></div>
-                    <div style={{marginTop:"4px"}}><Card  Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-5.png" title="Entrepreneurs" /></div>
-                    <div style={{marginTop:"4px"}}><Card  Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-6.png" title="Employees" /></div>
+                    <div className="bg-light" style={{marginTop:"4px"}}><Card  Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-4.png" title="Startups" /></div>
+                    <div className="bg-light" style={{marginTop:"4px"}}><Card  Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-5.png" title="Entrepreneurs" /></div>
+                    <div className="bg-light" style={{marginTop:"4px"}}><Card  Img="https://n.foxdsgn.com/deva/wp-content/uploads/2021/02/image-6.png" title="Employees" /></div>
                   
 
              </div>
