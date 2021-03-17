@@ -14,6 +14,7 @@ function Section6() {
           
         </div>
        </div>
+       <hr ></hr>
       </div>
         
     )
