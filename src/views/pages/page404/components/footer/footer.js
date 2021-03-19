@@ -10,7 +10,7 @@ export default function Footer() {
         <div>
       <footer className="site-footer">
         <div className="container-fluid">
-          <div className="row pl-5">
+          <div className="row pl-5 text-center">
             <div className="col-sm-12 col-md-6 " >
               <h6 className="text" style={{color:'black'}}>        Stint<span style={{fontSize:"20px"}}>:</span> Logo</h6>
               <p className="mt-2 text-muted font-weight-light">
@@ -18,7 +18,7 @@ export default function Footer() {
 The right amount of staff, every hour of the day
               </p>
               <div>
-            <div style={{display:"flex"}}>
+            <div style={{display:"flex",justifyContent:"center"}}>
                      
             <div className="social-icons ">
              <li><a href=""><InstagramIcon style={{ fontSize: 36 }}/></a></li>

@@ -23,9 +23,9 @@ const Dashboard = () => {
   return (
     <>
       <WidgetsDropdown />
-      <CCard>
-        <CCardBody>
-          <CRow>
+      {/* <CCard>
+        <CCardBody> */}
+          {/* <CRow>
             <CCol sm="5">
               <h4 id="traffic" className="card-title mb-0">Traffic</h4>
               <div className="small text-muted">November 2017</div>
@@ -103,13 +103,13 @@ const Dashboard = () => {
                 value={40}
               />
             </CCol>
-          </CRow>
-        </CCardFooter>
-      </CCard>
+          </CRow> */}
+        {/* </CCardFooter> */}
+      {/* </CCard> */}
 
-      <WidgetsBrand withCharts/>
+      {/* <WidgetsBrand withCharts/> */}
 
-      <CRow>
+      {/* <CRow>
         <CCol>
           <CCard>
             <CCardHeader>
@@ -549,7 +549,7 @@ const Dashboard = () => {
             </CCardBody>
           </CCard>
         </CCol>
-      </CRow>
+      </CRow> */}
     </>
   )
 }

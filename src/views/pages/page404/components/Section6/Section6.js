@@ -4,7 +4,7 @@ function Section6() {
     return (
       <div className="row text-center" style={{backgroundColor:"white"}}>
            <div className="container">
-            <div className="wrapper d-flex" >
+            <div className="wrapper d-flex " >
             <h1 style={{fontSize:"50px",fontWeight:"bold"}}>Get Back To Profitiablity</h1>
             <h1 style={{fontSize:"50px",fontWeight:"bold",}}>After Lockdown</h1>
           
