@@ -1,7 +1,13 @@
 import React,{useState} from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
-import {Link} from 'react-scroll'
+// import {Link} from 'react-scroll'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Footer from './components/footer/footer'
 import Section4 from "./components/Section4/Section4"
 import Section5 from "./components/section5/section5"
@@ -28,8 +34,9 @@ const Header = () => {
                 <span className="nav__items"><Link activeClass="active" to="children" spy={true} smooth={true}>Developers</Link></span>
                 <span className="nav__items"><Link activeClass="active" to="print" spy={true} smooth={true}>Company</Link></span>
                 <span className="nav__items"><Link activeClass="active" to="contact" spy={true} smooth={true}>Pricing</Link></span>
-                <span className="nav__items"><Link className="RightSign" activeClass="active RightSign" style={{marginLeft:"120px"}} to="/dashboard" spy={true} smooth={true} >Sign in</Link></span>
+                <span className="nav__items"><Link className="RightSign" activeClass="active RightSign" style={{marginLeft:"120px"}} to="/login" spy={true} smooth={true} >Sign in</Link></span>
                 {/* <span id="rightSignIn" className="nav__items right" >Sign in</span> */}
+                <Link to="/dashboard" >SUHA ARM</Link>
                 <div  className="close__menu" onClick={()=> setOpen(false)}><CloseIcon/></div>
                
             </div>
