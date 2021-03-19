@@ -28,7 +28,7 @@ const Header = () => {
                 <span className="nav__items"><Link activeClass="active" to="children" spy={true} smooth={true}>Developers</Link></span>
                 <span className="nav__items"><Link activeClass="active" to="print" spy={true} smooth={true}>Company</Link></span>
                 <span className="nav__items"><Link activeClass="active" to="contact" spy={true} smooth={true}>Pricing</Link></span>
-                <span className="nav__items"><Link className="RightSign" activeClass="active RightSign" style={{marginLeft:"120px"}} to="contact" spy={true} smooth={true}>Sign in</Link></span>
+                <span className="nav__items"><Link className="RightSign" activeClass="active RightSign" style={{marginLeft:"120px"}} to="/dashboard" spy={true} smooth={true} >Sign in</Link></span>
                 {/* <span id="rightSignIn" className="nav__items right" >Sign in</span> */}
                 <div  className="close__menu" onClick={()=> setOpen(false)}><CloseIcon/></div>
                
